@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+ddspy/core/__init__.py
+ddspy/core/main.py
+ddspy/ddsinpy.egg-info/PKG-INFO
+ddspy/ddsinpy.egg-info/SOURCES.txt
+ddspy/ddsinpy.egg-info/dependency_links.txt
+ddspy/ddsinpy.egg-info/top_level.txt
