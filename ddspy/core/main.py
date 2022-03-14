@@ -28,6 +28,10 @@ class Dlist():
             return self.list[item]
         except IndexError:
             return deepcopy(self.none_value)
+    
+    def __len__(self):
+        return len(self.list)
+
         
 
 class Ddict():
@@ -54,6 +58,10 @@ class Ddict():
             for _ in range(item-len(self.list)+1):
                 self.list.append(Box(dict()))
             return self.list[item]
+    
+    def __len__(self):
+        return len(self.list)
+
 
 
 
